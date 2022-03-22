@@ -1,0 +1,17 @@
+[
+  {
+    "titulo": "Lapiz FaberCastell",
+    "precio": 150.9,
+    "id": 1
+  },
+  {
+    "titulo": "Mapa Mundi",
+    "precio": 250,
+    "id": 2
+  },
+  {
+    "titulo": "Escuadra",
+    "precio": 103.35,
+    "id": 3
+  }
+]
