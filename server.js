@@ -12,19 +12,29 @@ app.get('/productos', (req, res) => {
   })();
 });
 
+app.get('/', (req, res) => {
+  (async () => {
+    await productos.getAll().then((resolve) => {
+      res.send(resolve);
+    });
+  })();
+});
+
 app.get('/productoRandom', (req, res) => {
   (async () => {
     let lista = await productos.getAll().then((res) => res);
     if(lista.length === 0) {
-      res.send(res.status, 'Sin productos');
+      res.status().send('No hay productos');
     }
     else {
-      res.send(array[Math.floor(Math.random() * array.length)]);
+      res.send(lista[Math.floor(Math.random() * lista.length)]);
     }
   })();
 });
 
-const server = app.listen(process.env.PORT, () => {
+let PORT = 8080;
+
+const server = app.listen(PORT, () => {
   console.log(`Servidor Express escuchando peticiones en el puerto ${server.address().port}`);
 });
 server.on("error", (error) => console.log(`Error en servidor ${error}`));
