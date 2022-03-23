@@ -1,25 +1,30 @@
-const Contenedor = require("./main.js");
-
+const Contenedor = require("./contenedor");
 const express = require("express");
+const app = express();
 
-const appExpress = express();
+let productos = new Contenedor("./productos.txt");
 
-let PORT = 3000;
-
-const server = appExpress.listen(PORT, () => {
-    console.log(`Servidor Http escuchando en el puerto ${server.address().port}`)
+app.get('/productos', (req, res) => {
+  (async () => {
+    await productos.getAll().then((resolve) => {
+      res.send(resolve);
+    });
+  })();
 });
 
-const contenedor1 = new Contenedor("productos.txt");
-
-appExpress.get("/productos", async (req, res) => {
-  const datos = await contenedor1.getAll();
-  res.send(datos);
+app.get('/productoRandom', (req, res) => {
+  (async () => {
+    let lista = await productos.getAll().then((res) => res);
+    if(lista.length === 0) {
+      res.send(res.status, 'Sin productos');
+    }
+    else {
+      res.send(array[Math.floor(Math.random() * array.length)]);
+    }
+  })();
 });
 
-appExpress.get("/productosRandom", async (req, res) => {
-  const datos = await contenedor1.getAll();
-  let num = Math.floor(Math.random() * datos.length + 1);
-  const dato = await contenedor1.getById(num);
-  res.send(dato);
+const server = app.listen(process.env.PORT, () => {
+  console.log(`Servidor Express escuchando peticiones en el puerto ${server.address().port}`);
 });
+server.on("error", (error) => console.log(`Error en servidor ${error}`));

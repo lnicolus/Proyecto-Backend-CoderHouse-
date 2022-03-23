@@ -1,17 +1,17 @@
 {
-  "name": "proyecto-backend",
+  "name": "",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "nodemon server.js",
-    "dev": "nodemon --inspect server.js"
+    "start" : "node server.js"    
   },
   "keywords": [],
   "author": "Lucas Nicolussi",
   "license": "ISC",
   "dependencies": {
-    "random": "^3.0.6"
+    "random": "^3.0.6",
+    "express": "^4.17.3"
   }
 }
