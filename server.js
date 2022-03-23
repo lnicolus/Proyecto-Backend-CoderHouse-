@@ -1,29 +1,25 @@
+const Contenedor = require("./main.js");
 
+const express = require("express");
 
+const appExpress = express();
 
+let PORT = 3000;
 
+const server = appExpress.listen(PORT, () => {
+    console.log(`Servidor Http escuchando en el puerto ${server.address().port}`)
+});
 
+const contenedor1 = new Contenedor("productos.txt");
 
+appExpress.get("/productos", async (req, res) => {
+  const datos = await contenedor1.getAll();
+  res.send(datos);
+});
 
-/* const http = require('http')
-
-const server = http.createServer((req, res) => {
-   res.end(getMensaje())
-})
-
-const connectedServer = server.listen(8080, () => {
-   console.log(`Servidor Http escuchando en el puerto ${connectedServer.address().port}`)
-})
-
-const getMensaje = () => {
-    const hora = new Date().getHours();
-
-    if(hora >= 6 && hora <= 12) {
-        return 'Buenos dias!'
-    } else if (hora >= 13 && hora <= 19) {
-        return 'Buenas tardes!'
-    } else if (hora >= 20 && hora <= 23) {
-        return 'Buenas noches!'
-    }
-} */
-
+appExpress.get("/productosRandom", async (req, res) => {
+  const datos = await contenedor1.getAll();
+  let num = Math.floor(Math.random() * datos.length + 1);
+  const dato = await contenedor1.getById(num);
+  res.send(dato);
+});
