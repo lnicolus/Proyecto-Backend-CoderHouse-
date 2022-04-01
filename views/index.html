@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product input form</title>
+  </head>
+  <body>
+    <h2>Input a product</h2>
+    <form action="/api/products" method="POST">
+      title:
+      <input type="text" name="title" />
+      price:
+      <input type="number" name="price" />
+      thumbnail:
+      <input type="text" name="thumbnail" />
+      <button>Send</button>
+    </form>
+    <h2>Our database</h2>
+    <form action="/api/products" method="GET">
+      <input type="submit" value="see all products" />
+    </form>
+
+    <h2>Find by ID</h2>
+    <form action="/api/products/:id" method="GET">
+      Id:
+      <input type="number" name="id" />
+      <input type="submit" name="find by id" />
+    </form>
+  </body>
+</html>
