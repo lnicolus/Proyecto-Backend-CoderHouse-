@@ -1,0 +1,24 @@
+doctype html
+head
+    title productos ingresados  
+body 
+    main 
+    if (products.length > 0)
+        div
+            table
+                tr 
+                    th Titulo
+                    th Precio
+                    th Imagen
+                each product in products
+                    tr
+                        td= product.title
+                        td= product.price
+                        td
+                         img(src=product.thumbnail style="width: 50px;")
+                            
+    else
+        h3.alert.alert-danger no hay productos
+        
+    a(href="http://localhost:8080")
+        button.btn.btn-success.mt-3.mb-5 cargar un producto nuevo
