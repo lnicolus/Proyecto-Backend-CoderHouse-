@@ -1,0 +1,45 @@
+.box {
+    position: relative;    
+    border: 3px solid #051924;
+    margin-top: 25px;
+    margin-bottom: 20px;
+      
+}
+
+.box-header {    
+    display: block;
+    padding: 10px;
+    position: relative;
+    border-radius: 2.5%;
+}
+
+.box-body {    
+    padding: 10px;
+}
+
+.chat-messages {
+    -webkit-transform: translate(0,  0);
+    -ms-transform: translate(0,  0);
+    -o-transform: translate(0,  0);
+    transform: translate(0,  0);
+    padding: 10px;
+    height: 350px;
+    overflow: auto;
+}
+.chat-name {
+    color: rgb(13, 13, 14);
+    font-weight: 600;
+}
+.timestamp {
+    color: rgb(67, 202, 43);
+}
+
+.chat-text {
+    border-radius: 5px;
+    position: relative;
+    padding: 5px 10px;
+    background: #fefeff;
+    border: 1px solid #080909;
+    margin: 5px 0 0 5px;
+    color: rgb(11, 11, 11);
+}
