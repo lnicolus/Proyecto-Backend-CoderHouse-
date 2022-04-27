@@ -1,5 +1,5 @@
 {
-  "name": "coder-backend-chat-product-list",
+  "name": "lucas.nicolussi.proyecto.final.entrega1",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -11,9 +11,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^3.1.6",
-    "moment": "^2.29.1",
-    "express": "^4.17.3",    
-    "socket.io": "^4.4.1"
+    "express": "^4.17.3",
+    "moment": "^2.29.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "000000",
+    "timestamp": "000000",
+    "products": {
+      "id": "000000",
+      "timestamp": "000000",
+      "name": "000000",
+      "description": "000000",
+      "code": 0,
+      "thumbnail": "000000",
+      "price": 0,
+      "stock": 0,
+      "quantity": 0
+    }
+  },
+  {
+    "id": "062166d7-530e-4107-b378-f15d43bba53f",
+    "timestamp": "",
+    "products": [
+      {
+        "id": "7769679",
+        "quantity": 5,
+        "timestamp": "",
+        "name": "Lettuce",
+        "description": "Our butter lettuce is the freshest you will ever find. Only on our customer's order we uproot the plant! Can you resist it?",
+        "code": 23,
+        "thumbnail": "https://www.burpee.com/media/catalog/product/2/6/2620d96434cc54691064adb6cc84e83e5442a8003a0786122c613abab5fb38af.jpeg?optimize=medium&bg-color=255,255,255&fit=bounds&height=427&width=320",
+        "price": 125,
+        "stock": 150    
+      },
+      {
+        "id": "63463468",
+        "quantity": 5,
+        "timestamp": "",
+        "name": "Carrots",
+        "description": "Good old carrots, freshly uprooted on the customer's order. Do not eat these dry carrots from the market, try fresh, never go back!",
+        "code": 24,
+        "thumbnail": "https://www.burpee.com/media/catalog/product/8/6/86f8ebdc85899533455be28ae60e288fc00070f13b930fede9c71a1d488f09d2.jpeg?optimize=medium&bg-color=255,255,255&fit=bounds&height=427&width=320",
+        "price": 3000,
+        "stock": 500
+        
+      }
+    ]
+  }
+]

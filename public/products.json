@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "quantity": 500,
+    "timestamp": "",
+    "name": "Grapes",
+    "description": "Do you need sweetness in your life? Try the world's plumpiest grapes from the Uco Valley in Chile, worth every dollar! Buy now!",
+    "code": 11,
+    "thumbnail": "https://www.burpee.com/media/catalog/product/5/f/5fe24dc54e436ccf2a0b96fbef230f754e08799b411feac5cb3c143e95717a6e.jpeg?optimize=medium&bg-color=255,255,255&fit=bounds&height=427&width=320",
+    "price": 190,
+    "stock": 550
+  },
+  {
+    "id": 2,
+    "quantity": 500,
+    "timestamp": "",
+    "name": "Watermelons",
+    "description": "These delicious watermelons descend directly from those cultivated in ancient Rome. These are by no means watery, organic taste!",
+    "code": 12,
+    "thumbnail": "https://www.burpee.com/media/catalog/product/c/6/c66b829ea34ee65fcc3d353ba141b8e69327f968f0d1b4f79544ba12758adc1f.jpeg?optimize=medium&bg-color=255,255,255&fit=bounds&height=427&width=320",
+    "price": 70,
+    "stock": 570
+  },
+  {
+    "id": 3,
+    "quantity": 500,
+    "timestamp": "",
+    "name": "Apples",
+    "description": "Our organic apples sure keep the doctors away, unlike these fumigated apples you can find in supermarket, ours are actually good for your health!",
+    "code": 13,
+    "thumbnail": "https://www.burpee.com/media/catalog/product/f/8/f864249028574b4fbce956b57351a115fdcdf0d9b4c714c63147ef1b8d0e0d8e.jpeg?optimize=medium&bg-color=255,255,255&fit=bounds&height=427&width=320 ",
+    "price": 20,
+    "stock": 670
+  },
+  {
+    "id": 4,
+    "quantity": 500,
+    "timestamp": "",
+    "name": "Strawberry",
+    "category": "fruits",
+    "description": "Our greenhouse-grown strawberries retain their taste the whole year. Why wait for winter when you can have 'em whenever you want?",
+    "code": 14,
+    "thumbnail": "https://www.burpee.com/media/catalog/product/1/5/15e6a1765785d12a0cc61a608654b5dd134a0cec4b976f4e8ef09e06ade21786.jpeg?optimize=medium&bg-color=255,255,255&fit=bounds&height=427&width=320",
+    "price": 29,
+    "stock": 99
+  },
+  {
+    "id": 5,
+    "quantity": 500,
+    "timestamp": "",
+    "name": "Tomatoes",
+    "description": "Fine mexican tomatoes, cultivated in the first cultivator's original swamps in Mochica, Mexico. Extra tasty, truly original flavor!",
+    "code": 21,
+    "thumbnail": "https://www.burpee.com/media/catalog/product/6/3/634a76098b555325e05d60dae6f9d49e6191a41c7b0f6bdbdad553a240a5571a.jpeg?optimize=medium&bg-color=255,255,255&fit=bounds&height=427&width=320",
+    "price": 77,
+    "stock": 399
+  },
+  {
+    "id": 6,
+    "quantity": 500,
+    "timestamp": "",
+    "name": "Red Peppers",
+    "description": "Fine red peppers imported directly from Brazil, extra plumpy, ideal for pizza with ham. What are you waiting for?",
+    "code": 22,
+    "thumbnail": "https://www.burpee.com/media/catalog/product/c/d/cdeece0f82398ca8472712632e288f077df9a2381eaa07f85be41eef2c4266f0.jpeg?optimize=medium&bg-color=255,255,255&fit=bounds&height=427&width=320",
+    "price": 120,
+    "stock": 270  
+  },
+  {
+    "id": 7,
+    "quantity": 500,
+    "timestamp": "",
+    "name": "Lettuce",
+    "description": "Our butter lettuce is the freshest you will ever find. Only on our customer's order we uproot the plant! Can you resist it?",
+    "code": 23,
+    "thumbnail": "https://www.burpee.com/media/catalog/product/2/6/2620d96434cc54691064adb6cc84e83e5442a8003a0786122c613abab5fb38af.jpeg?optimize=medium&bg-color=255,255,255&fit=bounds&height=427&width=320",
+    "price": 125,
+    "stock": 150    
+  },
+  {
+    "id": 8,
+    "quantity": 500,
+    "timestamp": "",
+    "name": "Carrots",
+    "description": "Good old carrots, freshly uprooted on the customer's order. Do not eat these dry carrots from the market, try fresh, never go back!",
+    "code": 24,
+    "thumbnail": "https://www.burpee.com/media/catalog/product/8/6/86f8ebdc85899533455be28ae60e288fc00070f13b930fede9c71a1d488f09d2.jpeg?optimize=medium&bg-color=255,255,255&fit=bounds&height=427&width=320",
+    "price": 3000,
+    "stock": 500
+    
+  }
+]
